@@ -1,0 +1,28 @@
+{
+  "name": "chatroom",
+   "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "\"Farhan Kabir Hridoy\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anik3146/ChatRoom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anik3146/ChatRoom/issues"
+  },
+  "homepage": "https://github.com/Anik3146/ChatRoom#readme"
+}
